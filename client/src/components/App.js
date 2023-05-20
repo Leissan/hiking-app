@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/testing">
-            <h1>Test Route</h1>
+            <h1>Test Routtte</h1>
           </Route>
           <Route path="/">
             <h1>Page Count: {count}</h1>
