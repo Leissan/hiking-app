@@ -7,7 +7,8 @@ function App() {
   useEffect(() => {
     fetch("/hello")
       .then((r) => r.json())
-      .then((data) => setCount(data.count));
+      .then((data) => setCount(data.count))
+      
   }, []);
 
   return (
